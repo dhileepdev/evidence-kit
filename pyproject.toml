@@ -1,0 +1,9 @@
+[project]
+name = "evidence-kit"
+version = "0.1.0"
+description = "Policy library plus evidence collector for DevOps audit evidence packs"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
