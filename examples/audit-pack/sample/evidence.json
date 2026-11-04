@@ -1,0 +1,32 @@
+{
+  "run": {
+    "timestamp": "2026-11-04T00:00:00Z",
+    "run_dir": "examples/audit-pack/sample"
+  },
+  "policy_results": {
+    "present": true,
+    "results": [
+      {
+        "policy_id": "deny.privileged-container",
+        "severity": "HIGH",
+        "control": "AC-2",
+        "message": "Container is privileged",
+        "status": "violated"
+      }
+    ]
+  },
+  "sources": {
+    "terraform_plan": {
+      "present": false,
+      "gap": "terraform_plan not provided"
+    },
+    "cluster_snapshot": {
+      "present": false,
+      "gap": "cluster_snapshot not provided"
+    },
+    "sbom": {
+      "present": false,
+      "gap": "sbom not provided"
+    }
+  }
+}

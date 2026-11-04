@@ -1,0 +1,10 @@
+{
+  "mapping": [
+    {
+      "policy_id": "deny.privileged-container",
+      "control": "AC-2",
+      "severity": "HIGH"
+    }
+  ],
+  "disclaimer": "Illustrative mapping, not an audit opinion, not evidence of certification."
+}

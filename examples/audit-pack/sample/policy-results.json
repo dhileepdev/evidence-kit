@@ -1,0 +1,11 @@
+{
+  "results": [
+    {
+      "policy_id": "deny.privileged-container",
+      "severity": "HIGH",
+      "control": "AC-2",
+      "message": "Container is privileged",
+      "status": "violated"
+    }
+  ]
+}

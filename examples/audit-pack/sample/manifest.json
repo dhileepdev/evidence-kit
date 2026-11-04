@@ -1,0 +1,12 @@
+{
+  "checksums": {
+    "evidence.json": "f6e9b2c0ad03eda276ae16bb72c462d86ec1bb06751a1971deb9ae374930b5cb",
+    "report.md": "170d097d8679c1007b3eddd5e5215dc23903f5517e74e36b2d8bcc87e9771af3",
+    "controls.json": "c13551cdad70b23c111278c3cb6e2aebb939437fcfa0deff68375c447c0f108d"
+  },
+  "signature": {
+    "algorithm": "sha256",
+    "key_id": "demo",
+    "signature": "c917a2dbfe41699e10ae3b80168a0b7aafaebc9b6ec373a1e8e956711d9931fe"
+  }
+}
